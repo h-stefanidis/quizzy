@@ -1,0 +1,224 @@
+{
+  "teacher": {
+    "email": "admin@email.com",
+    "name": "adminuser",
+    "password": "admin123"
+  },
+  "quiz": [
+    {
+      "tilte": "Data Science Quiz",
+      "description": "Test your knowledge in Data Science",
+      "questions": [
+        {
+          "tilte": "Which programming language is commonly used in Data Science?",
+          "explaination": "Python is widely used in Data Science due to its simplicity, versatility, and extensive libraries for data analysis and machine learning.",
+          "type": "multiple_choice",
+          "time_limit": 20,
+          "answers": [
+            {
+              "content": "Java",
+              "is_correct": false
+            },
+            {
+              "content": "Python",
+              "is_correct": true
+            },
+            {
+              "content": "C++",
+              "is_correct": false
+            },
+            {
+              "content": "JavaScript",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "tilte": "What is the process of cleaning and preparing data for analysis called?",
+          "explaination": "Data preprocessing involves cleaning, transforming, and organizing data to make it suitable for analysis.",
+          "type": "multiple_choice",
+          "time_limit": 10,
+          "answers": [
+            {
+              "content": "Data preprocessing",
+              "is_correct": true
+            },
+            {
+              "content": "Data visualization",
+              "is_correct": false
+            },
+            {
+              "content": "Data modeling",
+              "is_correct": false
+            },
+            {
+              "content": "Data analysis",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "tilte": "What is the process of exploring and analyzing data to discover meaningful insights called?",
+          "explaination": "Data analysis involves exploring and examining data sets to uncover useful information and patterns.",
+          "type": "multiple_choice",
+          "time_limit": 5,
+          "answers": [
+            {
+              "content": "Data preprocessing",
+              "is_correct": false
+            },
+            {
+              "content": "Data visualization",
+              "is_correct": false
+            },
+            {
+              "content": "Data mining",
+              "is_correct": true
+            },
+            {
+              "content": "Data modeling",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "tilte": "Which technique is used to handle missing data in a dataset?",
+          "explaination": "Imputation is the process of replacing missing data with substituted values.",
+          "type": "multiple_choice",
+          "time_limit": 10,
+          "answers": [
+            {
+              "content": "Deletion",
+              "is_correct": false
+            },
+            {
+              "content": "Imputation",
+              "is_correct": true
+            },
+            {
+              "content": "Interpolation",
+              "is_correct": false
+            },
+            {
+              "content": "Extrapolation",
+              "is_correct": false
+            }
+          ]
+        },
+        {
+          "tilte": "What is the process of selecting the most important features for a machine learning model called?",
+          "explaination": "Feature selection helps improve model performance and reduce overfitting by focusing on the most relevant features.",
+          "type": "multiple_choice",
+          "time_limit": 5,
+          "answers": [
+            {
+              "content": "Feature extraction",
+              "is_correct": false
+            },
+            {
+              "content": "Feature engineering",
+              "is_correct": false
+            },
+            {
+              "content": "Dimensionality reduction",
+              "is_correct": false
+            },
+            {
+              "content": "Feature selection",
+              "is_correct": true
+            }
+          ]
+        },
+        {
+          "tilte": "Which of the following is an example of an ensemble learning technique?",
+          "explaination": "Ensemble learning combines multiple models to improve prediction accuracy and robustness.",
+          "type": "multiple_choice",
+          "time_limit": 10,
+          "answers": [
+            {
+              "content": "Logistic regression",
+              "is_correct": false
+            },
+            {
+              "content": "Random forest",
+              "is_correct": true
+            },
+            {
+              "content": "K-nearest neighbors",
+              "is_correct": false
+            },
+            {
+              "content": "Naive Bayes",
+              "is_correct": false
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "rooms": [
+    {
+      "name": "DS1001",
+      "is_randomized": true,
+      "is_published": false
+    },
+    {
+      "name": "DS1002",
+      "is_randomized": true,
+      "is_published": false
+    },
+    {
+      "name": "DS1003",
+      "is_randomized": false,
+      "is_published": false
+    },
+    {
+      "name": "DS1004",
+      "is_randomized": true,
+      "is_published": false
+    }
+  ],
+  "students": [
+    {
+      "name": "Alice Smith",
+      "icon": null
+
+    },
+    {
+      "name": "John Doe",
+      "icon": null
+    },
+    {
+      "name": "Emily Johnson",
+      "icon": null
+    },
+    {
+      "name": "Michael Brown",
+      "icon": null
+    },
+    {
+      "name": "Jessica Taylor",
+      "icon": null
+    },
+    {
+      "name": "Daniel Martinez",
+      "icon": null
+    },
+    {
+      "name": "Sarah Anderson",
+      "icon": null
+    },
+    {
+      "name": "Matthew Wilson",
+      "icon": null
+    },
+    {
+      "name": "Lauren Garcia",
+      "icon": null
+    },
+    {
+      "name": "Christopher Lopez",
+      "icon": null
+    }
+  ]
+}

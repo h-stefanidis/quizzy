@@ -1,0 +1,15 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+
+# IDEs
+.idea/
+
+# OS
+.DS_Store
+
+# Seed Data File
+*.csv
